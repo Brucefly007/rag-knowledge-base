@@ -1,0 +1,2 @@
+# 教学版尽量零依赖；有 Python3.10+ 即可跑。
+# 若要接真 Embedding，可自行加：sentence-transformers / pymilvus

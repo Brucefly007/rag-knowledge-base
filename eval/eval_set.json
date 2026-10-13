@@ -1,0 +1,139 @@
+[
+  {
+    "id": "q1",
+    "question": "14寸笔记本放得进双肩包吗容量多大",
+    "relevant_keywords": [
+      "14寸",
+      "20L"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q2",
+    "question": "登机手提尺寸限制是多少",
+    "relevant_keywords": [
+      "40",
+      "30",
+      "20"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q3",
+    "question": "下雨天包会进水吗防水到什么程度",
+    "relevant_keywords": [
+      "防泼水",
+      "暴雨"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q4",
+    "question": "现货多久能寄出",
+    "relevant_keywords": [
+      "48",
+      "小时"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q5",
+    "question": "不想要了怎么走七天无理由",
+    "relevant_keywords": [
+      "七天",
+      "吊牌"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q6",
+    "question": "SKU-BP20-KH 还有货吗",
+    "relevant_keywords": [
+      "BP20-KH",
+      "卡其"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q7",
+    "question": "头层牛皮能晒太阳吗",
+    "relevant_keywords": [
+      "暴晒",
+      "头层"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q8",
+    "question": "可以货到付款吗",
+    "relevant_keywords": [],
+    "has_answer": false
+  },
+  {
+    "id": "q9",
+    "question": "支持花呗分期吗",
+    "relevant_keywords": [],
+    "has_answer": false
+  },
+  {
+    "id": "q10",
+    "question": "新疆物流会不会晚",
+    "relevant_keywords": [
+      "偏远",
+      "延期"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q11",
+    "question": "积分怎么抵现有什么限制",
+    "relevant_keywords": [
+      "100",
+      "积分",
+      "优惠券"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q12",
+    "question": "质量问题换新包邮吗几天内",
+    "relevant_keywords": [
+      "15",
+      "包邮"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q13",
+    "question": "能不能扔洗衣机洗",
+    "relevant_keywords": [
+      "洗衣机",
+      "变形"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q14",
+    "question": "要发票怎么开",
+    "relevant_keywords": [
+      "电子",
+      "税号"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q15",
+    "question": "礼品包装怎么买",
+    "relevant_keywords": [
+      "礼品",
+      "丝带"
+    ],
+    "has_answer": true
+  },
+  {
+    "id": "q16",
+    "question": "你们有实体店试背吗",
+    "relevant_keywords": [],
+    "has_answer": false
+  }
+]
