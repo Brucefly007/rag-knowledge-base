@@ -9,7 +9,7 @@ from rag_core import chunk_markdown
 
 md = (ROOT / "data" / "bag_kb.md").read_text(encoding="utf-8")
 chunks = chunk_markdown(md)
-print(f"共 {len(chunks)} 个 chunk（教学参数偏小；简历生产参数 chunk=512 overlap=64）\n")
+print(f"共 {len(chunks)} 个 chunk（教学参数偏小；生产常用参数 chunk=512 overlap=64）\n")
 for c in chunks:
     preview = c.text.replace("\n", " ")[:80]
     print(f"- {c.id} | {c.heading} | {preview}...")

@@ -1,6 +1,6 @@
 """教学用 RAG 核心：分块 / BM25 / 简易稠密 / RRF / 评测。
 
-面试要点：生产环境把「简易 TF 稠密」换成 BGE-M3，「内存索引」换成 Milvus，
+生产环境把「简易 TF 稠密」换成 BGE-M3，「内存索引」换成 Milvus，
 「关键词重叠精排」换成 bge-reranker；融合与评测逻辑不变。
 """
 from __future__ import annotations
@@ -27,7 +27,7 @@ def char_bigrams(text: str) -> list[str]:
 
 
 def chunk_markdown(md: str, max_chars: int = 180, overlap: int = 40) -> list[Chunk]:
-    """标题层级分块；小文档用较短 chunk，方便本地演示。简历写 512/64 是生产参数。"""
+    """标题层级分块；小文档用较短 chunk，方便本地演示。生产常用参数是 512/64。"""
     chunks: list[Chunk] = []
     heading = "根"
     buf: list[str] = []
@@ -135,7 +135,7 @@ def rrf_fuse(
     k: int = 60,
     top_k: int = 5,
 ) -> list[tuple[int, float]]:
-    """Reciprocal Rank Fusion：只看排名。面试必讲。"""
+    """Reciprocal Rank Fusion：只看排名，不调两路权重。"""
     scores: dict[int, float] = defaultdict(float)
     for ranking in rankings:
         for rank, (doc_id, _) in enumerate(ranking, start=1):
